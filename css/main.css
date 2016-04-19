@@ -147,7 +147,9 @@ Page: PROJECTS
   /*the width property influences how much each image will take up
   in the page. at 45%, 2 images fit on.*/
   width: 90%; 
-  margin: 2.5%;
+/*  margin: 2.5%;*/
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: #b3ffff;
   color: #bdc3c7;
   
@@ -188,9 +190,11 @@ PAGE:CONTACT
 **************************************/
 #primary{ 
     margin-left: 5%;
+  margin-right: 5%;
   }
   #secondary{
   margin-left: 5%;
+  margin-right: 5%;
     
   }
 
@@ -279,13 +283,3 @@ nav a.selected, nav a:hover{
   color: #0059bf;
   
 }
-
-
-
-
-
-
-
-
-
-
