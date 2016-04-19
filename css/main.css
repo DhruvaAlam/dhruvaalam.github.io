@@ -1,0 +1,291 @@
+/*************************************
+GENERAL
+**************************************/
+#wrapper {
+  /* Width can no longer be 940px, but it can be smaller  */
+  max-width: 940px;
+  /* Sets spacing around all four sides. 
+  First value is for top and bottom.
+  Auto fills in left and right side of margin
+  */
+  margin: 0 auto;
+  /* 0 padding in top and bottom.
+  and 5% for the left and right of the total width of the wrapper element itself*/ 
+  padding: 0 5;
+  
+}
+
+a {
+  /*the following line removes underlines from all anchor elements*/
+ text-decoration: none;
+}
+body{
+ font-family: 'Roboto', sans-serif; 
+  
+}
+
+/* allows images to fill their parent element*/
+img{
+ max-width: 100%; 
+}
+
+h3{
+ margin: 0 0 1em 0;
+  
+  
+  
+}
+
+
+
+
+
+
+
+/*************************************
+HEADING
+**************************************/
+header{
+ float: left;
+  margin: 0 0 30px 0;
+  padding: 5x 0 0 0;
+  width: 100%;
+  
+  
+}
+#logo{
+  /*alligns text to centre*/
+ text-align:center;
+  /*applies margin to all sides*/
+  margin:0; 
+}
+
+
+h1 {
+ /*font-family: 'Roboto', sans-serif; 
+  font-family: 'Raleway', sans-serif;*/
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight:normal;
+}
+
+h2 {
+ /*font-family: 'Roboto', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  margin: -5px 0 0;
+  font-size: 0.75em;
+  font-weight:normal;
+  line-height: 0.8em;
+}
+
+
+/*************************************
+NAVIGATION
+**************************************/
+nav{
+ text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  
+}
+
+nav ul{
+ list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  
+  
+}
+
+nav li{
+ display: inline-block;
+  
+}
+
+nav a{
+ font-weight: 900;
+  padding: 15px 10px;
+  
+}
+
+
+
+/*************************************
+FOOTER
+**************************************/
+footer{
+  font-size: 0.75em;
+ text-align: center;
+  clear:both;
+  padding-top: 50px;
+  color: #ccc;
+  
+  
+}
+
+.social-icon{
+ width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  
+}
+
+
+/*************************************
+Page: PROJECTS
+**************************************/
+
+#gallery{
+ margin: 0;
+  padding: 0;
+  list-style: none; /* removes bullet points from a list*/
+  
+}
+
+#gallery li{
+ float: left;
+  /*the width property influences how much each image will take up
+  in the page. at 45%, 2 images fit on.*/
+  width: 90%; 
+  margin: 2.5%;
+  background-color: #b3ffff;
+  color: #bdc3c7;
+  
+  
+}
+
+#gallery li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75ems;
+  color:  #4099ff;
+  
+}
+
+/*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo{
+ display: block;
+  max-width: 175px;
+  margin: 0 auto 30px;
+  border-radius: 20%; /*adds rounded border around profile pic*/ 
+}
+
+#about-text{
+ margin-left: 5%;
+  margin-right: 5%;
+  float:up;
+  
+}
+
+
+
+
+
+/*************************************
+PAGE:CONTACT
+**************************************/
+#primary{ 
+    margin-left: 5%;
+  }
+  #secondary{
+  margin-left: 5%;
+    
+  }
+
+
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  
+}
+.contact-info a{
+ display: block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  
+}
+
+.contact-info li.phone a{
+  /* one dot brings us out of css directory other one brings us up to entire folder directory*/
+  background-image: url('../img/phone.png');
+  
+}
+.contact-info li.mail a{
+  /* one dot brings us out of css directory other one brings us up to entire folder directory*/
+  background-image: url('../img/mail.png');
+  
+}
+.contact-info li.twitter a{
+  /* one dot brings us out of css directory other one brings us up to entire folder directory*/
+  background-image: url('../img/twitter.png');
+  
+}
+
+
+
+/*************************************
+COLORS
+**************************************/
+
+
+/*blue header*/
+header {
+  background: #4099ff; 
+  border-color: #1a73d9;
+}
+
+/*nav background on mobile*/
+nav{
+  background:  #1a73d9;
+}
+
+body{
+  background-color: #fff;
+  color: #999; 
+}
+
+
+h1,h2{
+ color: #fff; 
+  
+}
+
+/*link color*/
+a {
+ color: #4099ff; 
+  
+}
+
+
+
+/*nav a:visited is a pseudoclass that ensures the links stay white after you click on
+them and so they don't change color*/
+nav a, nav a:visited{
+ color: #fff;
+}
+/*lets user know what part of website they're on the nav bar
+.selected is the current page your on
+a:hover changes color when you hover over elemenet on the nav bad
+*/
+nav a.selected, nav a:hover{
+  color: #0059bf;
+  
+}
+
+
+
+
+
+
+
+
+
+

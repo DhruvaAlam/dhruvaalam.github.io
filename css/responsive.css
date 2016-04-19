@@ -1,0 +1,117 @@
+/*meadia queries*/
+
+@media screen and (min-width: 480px){
+  
+    
+  
+  
+  
+}
+
+
+
+
+
+@media screen and (min-width: 660px){
+  
+  /*************************************
+  PAGE: ABOUT PROFILE PIC
+  **************************************/
+  .profile-photo{
+   float:left;
+    margin: 35px 5% 350px 3.5%;
+    
+  }
+  
+  
+  /*************************************
+  Two Column Layout
+  **************************************/
+  
+  
+  #primary{
+   width: 50%;
+    float: left; 
+    margin-left: 5%;
+  }
+  #secondary{
+   width: 40%;
+    float:right;
+    
+  }
+  
+  
+  /*************************************
+  PAGE: PORTFOLIO TWO COLUMNS
+  **************************************/
+  #gallery li{
+   width: 45%;
+    
+    
+  }
+  #gallery li:nth-child(6n){
+   clear:up; 
+  }
+  
+  
+  /*************************************
+  HEADER
+  **************************************/
+  nav{
+   background:none;
+    float: right;
+    font-size: 1.125em;
+    margin-left: 5%;
+    text-align: right;
+    width: 55%;
+    
+  }
+  #logo{
+   float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 35%;
+    
+  }
+  
+  h1{
+   font-size: 2.5em; 
+    
+    
+  }
+  h2{
+   font-size: 1.1em; 
+    margin-bottom: 20px;
+    
+  }
+  
+  header{
+    border-bottom: 5px solid #0059bf;
+    margin-bottom: 45px;
+    
+  }
+  
+  
+  
+  
+  
+}
+
+@media screen and (min-width: 1080px){
+  
+  /*************************************
+  PAGE: PORTFOLIO THREE COLUMNS
+  **************************************/
+    #gallery li{
+    width: 28.333333%;
+    }
+  #gallery li:nth-child(4){
+    clear:left; 
+    }
+  
+   #gallery li:nth-child(8){
+  clear:up;
+    }
+  
+  
+}
