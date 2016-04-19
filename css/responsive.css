@@ -33,9 +33,12 @@
    width: 50%;
     float: left; 
     margin-left: 5%;
+    margin-right: 5%;
   }
   #secondary{
-   width: 40%;
+   width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     float:right;
     
   }
@@ -46,6 +49,7 @@
   **************************************/
   #gallery li{
    width: 45%;
+    margin: 2.5% 2.5%;
     
     
   }
