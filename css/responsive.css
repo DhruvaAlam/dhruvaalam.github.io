@@ -56,6 +56,9 @@
   #gallery li:nth-child(6n){
    clear:up; 
   }
+  #gallery li:nth-child(7n){
+   clear:left; 
+  }
   
   
   /*************************************
